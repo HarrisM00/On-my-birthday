@@ -7,13 +7,16 @@
 </head>
 <body>
 
-    <button onclick="addContent('Sep 4, 1893')">Add Sep 4, 1893</button>
-    <button onclick="addContent('Sep 4, 1918')">Add Sep 4, 1918</button>
-    <button onclick="addContent('Sep 4, 1923')">Add Sep 4, 1923</button>
-    <button onclick="addContent('Sep 4, 1933')">Add Sep 4, 1933</button>
-    <button onclick="addContent('Sep 4, 1960')">Add Sep 4, 1960</button>
+    <button onclick="updateContent('Sep 4, 1893')">Update Sep 4, 1893</button>
+    <button onclick="updateContent('Sep 4, 1918')">Update Sep 4, 1918</button>
+    <button onclick="updateContent('Sep 4, 1923')">Update Sep 4, 1923</button>
+    <button onclick="updateContent('Sep 4, 1933')">Update Sep 4, 1933</button>
+    <button onclick="updateContent('Sep 4, 1960')">Update Sep 4, 1960</button>
 
-    <div id="contentContainer"></div>
+    <div id="contentContainer">
+        <p id="paragraph">Initial paragraph content.</p>
+        <img id="image" src="path/to/your/image.jpg" alt="Initial Image">
+    </div>
 
     <script src="script.js"></script>
 </body>
